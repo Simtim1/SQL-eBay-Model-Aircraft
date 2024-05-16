@@ -5,19 +5,19 @@
 CREATE TABLE ModelAircraft (
     Manufacturer VARCHAR(50),
     Scale VARCHAR(10),
-    ItemListed VARCHAR(100),
-    PriceSold DECIMAL(10,2),
-    ShippingCost DECIMAL(10,2),
+    Item_Listed VARCHAR(100),
+    Price_Sold DECIMAL(10,2),
+    Shipping_Cost DECIMAL(10,2),
     Revenue DECIMAL(10,2),
-    TransactionFee DECIMAL (10,2),
-    Net Profits DECIMAL (10,2),
-    DateOfPurchase DATE,
+    Transaction_Fee DECIMAL (10,2),
+    Net_Profits DECIMAL (10,2),
+    Date_Of_Purchase DATE,
     Notes VARCHAR(20)
     );
 
 -- INSERT INTO TABLES ==================== 
 
-INSERT INTO ModelAircraft (Manufacturer, Scale, ItemListed, PriceSold, ShippingCost, Revenue, TransactionFee, NetProfits, DateOfPurchase, Notes)
+INSERT INTO ModelAircraft (Manufacturer, Scale, Item_Listed, Price_Sold, Shipping_Cost, Revenue, Transaction_Fee, Net_Profits, Date_Of_Purchase, Notes)
 VALUES 
 ('Dragons Wings', '1/400', 'Air Pacific B747-400', 49.99, 14.99, 64.98, -9.01, 55.97, '2023-01-12', ''),
 ('Dragons Wings', '1/400', 'Emirates B777-31H', 30.00, 0.00, 30.00, NULL, 30.00, '2023-02-10', ''),
