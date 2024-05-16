@@ -48,44 +48,4 @@ VALUES
 ('Dragons Wings', '1/400', 'China Eastern Airlines B 737-79PWL', 20, 14.5, 34.5, '2023-05-10', ''),
 ('Dragons Wings', '1/400', 'Pan American World Airways B 747-121A', 55, 14.5, 69.5, '2023-05-10', '');
 
--- MOVING TOTAL SALES ====================
 
-SELECT 
-    DateOfPurchase,
-    SUM(FinalPrice) OVER (ORDER BY DateOfPurchase ROWS BETWEEN "" PRECEDING AND CURRENT ROW"") AS MovingTotal
-FROM 
-    ModelAircraft
-ORDER BY 
-    DateOfPurchase;
-
--- CALCULATING THE SUM OF THE FINAL PRICE PER MONTH ====================
-
-SELECT 
-    YEAR(DateOfPurchase) AS Year,
-    MONTH(DateOfPurchase) AS Month,
-    SUM(FinalPrice) AS TotalSales
-FROM 
-    ModelAircraft
-GROUP BY 
-    YEAR(DateOfPurchase), MONTH(DateOfPurchase)
-ORDER BY 
-    Year, Month;
-
--- RETURN ORDERS THAT SOLD MORE THAN 70 ====================
-
-SELECT *
-FROM ModelAircraft
-WHERE FinalPrice > 70;
-
--- TOTAL NUMBER OF SALES PER MONTH ====================
-
-SELECT 
-    YEAR(DateOfPurchase) AS Year,
-    MONTH(DateOfPurchase) AS Month,
-    COUNT(*) AS SalesCount
-FROM 
-    ModelAircraft
-GROUP BY 
-    YEAR(DateOfPurchase), MONTH(DateOfPurchase)
-ORDER BY 
-    Year, Month;
