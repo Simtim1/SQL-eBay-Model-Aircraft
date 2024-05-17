@@ -18,8 +18,8 @@ CREATE TABLE Sales Model Aircraft (
 -- CREATING BRAND TABLE ====================
 
 CREATE TABLE Brand (
-    Brand_ID INT PRIMARY KEY
-    Brand_Name VARCHAR(20),
+    Brand_ID INT PRIMARY KEY,
+    Brand_Name VARCHAR(20)
 );
 
 -- ADD FOREIGN KEY TO THE SALES TABLE ====================
