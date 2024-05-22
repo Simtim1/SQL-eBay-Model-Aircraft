@@ -2,7 +2,7 @@
 
 -- CREATING SAlES TABLE ====================
 
-CREATE TABLE Sales Model Aircraft (
+CREATE TABLE Sales (
     Item_ID INT PRIMARY KEY,
     Scale VARCHAR(10),
     Item_Listed VARCHAR(100),
@@ -24,7 +24,7 @@ CREATE TABLE Brand (
 
 -- ADD FOREIGN KEY TO THE SALES TABLE ====================
 
-ALTER TABLE Sales Model Aircraft
+ALTER TABLE Sales
 ADD FOREIGN KEY (brand_id)
 REFERENCES brand(brand_id);
      
