@@ -8,18 +8,18 @@
             Item_listed,
             Net_Profits, 
             Date_Of_Purchase, 
-    FROM ModelAircraft; 
+    FROM Sales; 
 
 -- SELECT ITEMS MADE A NET PROFIT OVER 50 ====================
 
 SELECT * 
-FROM ModelAircraft 
+FROM Sales 
 WHERE Net_Profit > 50; 
 
 -- SELECT ALL ITEMS THAT MADE A NET PROFIT OVER 50 AND ARE MANUFACTURED BY GEMINI JETS ====================
 
 SELECT *
-FROM ModelAircraft 
+FROM Sales 
 WHERE > Net_Profit > 50 AND Manufacturer = Gemini Jets 
 
 -- CALCULATING THE SUM OF THE FINAL PRICE PER MONTH ====================
