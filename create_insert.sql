@@ -30,7 +30,7 @@ REFERENCES brand(brand_id);
      
 -- INSERT INTO SALES TABLES ==================== 
 
-INSERT INTO Sales Model Aircraft (Item_ID, Scale, Item_Listed, Price_Sold, Shipping_Cost, Revenue, Transaction_Fees, Net_Profits, Brand_ID, Date_Sold) VALUES
+INSERT INTO Sales (Item_ID, Scale, Item_Listed, Price_Sold, Shipping_Cost, Revenue, Transaction_Fees, Net_Profits, Brand_ID, Date_Sold) VALUES
 ('Air747-400 Dra', '1/400', 'Air Pacific B747-400', 49.99, 14.99, 64.98, -9.01, 55.97, 1, '2024-01-12'),
 ('Emi777-31H Dra', '1/400', 'Emirates B777-31H', 30, 0, 30, 0, 30, 1, '2024-02-10'),
 ('EmiA380-800Dra', '1/400', 'Emirates A380-800', 59.99, 14.99, 74.98, -10.34, 64.64, 1, '2024-02-12'),
