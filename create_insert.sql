@@ -1,5 +1,3 @@
-
-
 -- CREATING SAlES TABLE ====================
 
 CREATE TABLE Sales (
