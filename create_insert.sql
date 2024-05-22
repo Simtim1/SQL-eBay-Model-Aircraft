@@ -3,7 +3,7 @@
 -- CREATING SAlES TABLE ====================
 
 CREATE TABLE Sales (
-    Item_ID INT PRIMARY KEY,
+    Item_ID VARCHAR PRIMARY KEY,
     Scale VARCHAR(10),
     Item_Listed VARCHAR(100),
     Price_Sold DECIMAL(10, 2),
