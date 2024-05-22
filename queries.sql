@@ -2,6 +2,11 @@
     Theoretically, this would help us explore correlations between marketing trends or external factors like seasonality or economic conditions. 
     For this analysis, I want to utilise SQL to return insights that would be useful to answer the business question and insights that are generally useful.
 
+-- SELECT ALL (*) COLUMNS FROM TABLE
+
+SELECT * FROM sales;
+SELECT * FROM brand;
+        
 -- SELECTING 3 COLUMNS OF THE TABLE ====================
 
     SELECT 
