@@ -35,4 +35,4 @@ WHERE > Net_Profit > 50 AND Manufacturer = Gemini Jets
 
 -- Average Price of Items Solds
 
--- 
+
