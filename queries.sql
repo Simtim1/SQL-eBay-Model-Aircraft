@@ -28,3 +28,7 @@ WHERE > Net_Profit > 50 AND Manufacturer = Gemini Jets
 -- Calculating the sum of the final price per month by manufacturer ====================
 
 -- Top 10 Items
+
+-- Total Sum of Transaction Fees 
+
+-- Average Price of Items Solds
