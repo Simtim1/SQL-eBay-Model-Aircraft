@@ -1,9 +1,9 @@
--- SELECT ALL (*) COLUMNS FROM TABLE
+-- Select all (*) columns from table ====================
 
 SELECT * FROM sales;
 SELECT * FROM brand;
         
--- SELECTING 3 COLUMNS OF THE TABLE ====================
+-- Selecting 3 columns from tables ====================
 
     SELECT 
             Item_listed,
@@ -11,20 +11,20 @@ SELECT * FROM brand;
             Date_Of_Purchase, 
     FROM Sales; 
 
--- SELECT ITEMS MADE A NET PROFIT OVER 50 ====================
+-- Select items that made a net profit over 50 ====================
 
 SELECT * 
 FROM Sales 
 WHERE Net_Profit > 50; 
 
--- SELECT ALL ITEMS THAT MADE A NET PROFIT OVER 50 AND ARE MANUFACTURED BY GEMINI JETS ====================
+-- Select items that made a net profit over 50 and manufactured by gemini jets ====================
 
 SELECT *
 FROM Sales 
 WHERE > Net_Profit > 50 AND Manufacturer = Gemini Jets 
 
--- CALCULATING THE SUM OF THE FINAL PRICE PER MONTH ====================
+-- Calculating the sum of the final price per month ====================
 
--- CALCULATING THE SUM OF THE FINAL PRICE PER MONTH BY MANUFACTURER ====================
+-- Calculating the sum of the final price per month by manufacturer ====================
 
--- 
+-- Top 10 Items
