@@ -17,7 +17,7 @@ SELECT *
 FROM Sales 
 WHERE Net_Profit > 50; 
 
--- Select items that made a net profit over 50 and manufactured by gemini jets ====================
+-- Select items that made a net profit over 50 and were manufactured by Gemini Jets ====================
 
 SELECT *
 FROM Sales 
