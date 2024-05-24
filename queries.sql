@@ -5,11 +5,11 @@ SELECT * FROM brand;
         
 -- Selecting 3 columns from tables ====================
 
-    SELECT 
-            Item_listed,
-            Net_Profits, 
-            Date_Of_Purchase, 
-    FROM Sales; 
+SELECT 
+        Item_listed,
+        Net_Profits, 
+        Date_Of_Purchase, 
+FROM Sales; 
 
 -- Select items that made a net profit over 50 ====================
 
