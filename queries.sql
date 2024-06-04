@@ -8,8 +8,8 @@ SELECT * FROM brand;
 SELECT 
         Item_listed,
         Net_Profits, 
-        Date_Of_Purchase, 
-FROM Sales; 
+        Date_Sold, 
+* FROM Sales; 
 
 -- Select items that made a net profit over 50 ====================
 
