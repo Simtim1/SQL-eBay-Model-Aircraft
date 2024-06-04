@@ -15,13 +15,13 @@ SELECT
 
 SELECT * 
 FROM Sales 
-WHERE Net_Profit > 50; 
+WHERE Net_Profits > 50; 
 
 -- Select items that made a net profit over 50 and were manufactured by Gemini Jets ====================
 
 SELECT *
 FROM Sales 
-WHERE > Net_Profit > 50 AND Manufacturer = Gemini Jets 
+WHERE Net_Profits > 50 AND Brand_ID = 2 
 
 -- Calculating the sum of the final price per month ====================
 
