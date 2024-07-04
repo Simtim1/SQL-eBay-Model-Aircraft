@@ -64,6 +64,26 @@ INSERT INTO Sales VALUES ('Air11-385-1Dra', '1/400', 'AirLankaL-1011-385-1', 80,
 INSERT INTO Sales VALUES ('RoyangMk.IVDra', '1/72', 'RoyalAustralianAirForceP-51DMustangMk.IV', 45, 14.5, 59.5, -8.27, 51.23, 1, '2024/5/18');
 INSERT INTO Sales VALUES ('Korng-2018"Pho', '1/400', 'KoreanAirB777-2B5ER"PyeongChang-2018"', 77, 14.5, 91.5, -12.56, 78.94, 7, '2024/5/19');
 INSERT INTO Sales VALUES ('ThaB747-400Dra', '1/400', 'ThaiAirwaysB747-400', 37, 14.5, 51.5, -7.2, 44.3, 1, '2024/5/21');
+INSERT INTO Sales VALUES ('HawA330-243Dra', '1/400', 'HawaiianAirlinesA330-243', 40, 14.5, 54.5, -7.6, 46.9, 1, '2024/5/22');
+INSERT INTO Sales VALUES ('Sinversary"Dra', '1/400', 'SingaporeA340-313"50thAnniversary"', 27, 14.5, 41.5, -5.87, 35.63, 1, '2024/5/23');
+INSERT INTO Sales VALUES ('Air340-313XDra', '1/400', 'AirCanadaA340-313X', 35, 14.5, 49.5, -12.29, 37.21, 1, '2024/5/27');
+INSERT INTO Sales VALUES ('DelffGirls"Dra', '1/400', 'DeltaExpressB737-232A"PowerPuffGirls"', 40, NULL, 40, NULL, 40, 1, '2024/5/27');
+INSERT INTO Sales VALUES ('Can-LowViz"Gem', '1/400', 'CandianAirForceC-17"75thAnniversary-LowViz"', 50, 18.65, 68.65, -18.21, 50.44, 2, '2024/5/29');
+INSERT INTO Sales VALUES ('UniB777-200Gem', '1/400', 'UnitedAirlinesB777-200', 15, NULL, 15, NULL, 15, 2, '2024/5/29');
+INSERT INTO Sales VALUES ('UnirceBase"Gem', '1/400', 'UnitedStatesAirForceC-17"446thAW-McChordAirForceBase"', 50, NULL, 50, NULL, 50, 2, '2024/5/29');
+INSERT INTO Sales VALUES ('Qan707-300BDra', '1/400', 'QantasB707-300B', 38, 14.5, 52.5, -7.34, 45.16, 1, '2024/5/30');
+INSERT INTO Sales VALUES ('Alan"ColorsGem', '1/400', 'AlaskaAirlinesB737-490"SalmonThreeSalmon"Colors', 60, NULL, 60, NULL, 60, 2, '2024/6/05');
+INSERT INTO Sales VALUES ('NorB787-851Dra', '1/400', 'NorthwestAirlinesB787-851', 30, 20.6, 50.6, -17.53, 33.07, 1, '2024/6/05');
+INSERT INTO Sales VALUES ('Qat-133XACJDra', '1/400', 'QatarAmiriFlightA319-133XACJ', 18, NULL, 18, NULL, 18, 1, '2024/6/05');
+INSERT INTO Sales VALUES ('LocFFineAirGem', '1/400', 'LockheedL-1011-385-1-14-200FFineAir', 35, 14.5, 49.5, -6.93, 42.57, 2, '2024/6/07');
+INSERT INTO Sales VALUES ('KorB777-2B5Dra', '1/400', 'KoreanAirB777-2B5', 35, 14.5, 49.5, -6.93, 42.57, 1, '2024/6/22');
+INSERT INTO Sales VALUES ('Boe(367-80)Dra', '1/400', 'Boeing707Prototype(367-80)', 45, 14.5, 59.5, -8.27, 51.23, 1, '2024/6/26');
+INSERT INTO Sales VALUES ('QanellationDra', '1/400', 'QantasAirwaysL-1049G-82-53SuperConstellation', 42, 14.5, 56.5, -7.87, 48.63, 1, '2024/6/28');
+INSERT INTO Sales VALUES ('HawB717-22AGem', '1/400', 'HawiianAirlinesB717-22A', 40, 14.5, 54.5, -7.6, 46.9, 2, '2024/6/29');
+INSERT INTO Sales VALUES ('AirB4-608STDra', '1/400', 'AirbusIndustriesA300B4-608ST', 38, 21.5, 59.5, -22.06, 37.44, 1, '2024/7/01');
+INSERT INTO Sales VALUES ('Air"Livery"Dra', '1/400', 'AirbusIndustriesA300B4-608ST "Livery"', 38, NULL, 38, NULL, 38, 1, '2024/7/01');
+INSERT INTO Sales VALUES ('B74amLifterDra', '1/400', 'B747-400LCFAllWhiteDreamLifter', 65, NULL, 65, NULL, 65, 1, '2024/7/01');
+
 
 -- INSERT INTO BRANDS TABLES ==================== 
 
