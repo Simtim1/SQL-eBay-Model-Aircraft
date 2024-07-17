@@ -28,7 +28,7 @@ REFERENCES brand(brand_id);
      
 -- INSERT INTO SALES TABLES ==================== 
 
-INSERT INTO Sales VALUES ('AirB747-400Dra', '1/400', 'AirPacificB747-400', 49.99, 14.99, 64.98, -9.01, 55.97, 1, '2014/1/12');
+INSERT INTO Sales VALUES ('AirB747-400Dra', '1/400', 'AirPacificB747-400', 49.99, 14.99, 64.98, -9.01, 55.97, 1, '2024/1/12');
 INSERT INTO Sales VALUES ('EmiB777-31HDra', '1/400', 'EmiratesB777-31H', 30, 0, 30, NULL, 30, 1, '2024/2/10');
 INSERT INTO Sales VALUES ('EmiA380-800Dra', '1/400', 'EmiratesA380-800', 59.99, 14.99, 74.98, -10.34, 64.64, 1, '2024/2/12');
 INSERT INTO Sales VALUES ('Fed777-200FDra', '1/400', 'FedExPandaB777-200F', 50, 0, 50, -7, 43, 1, '2024/4/3');
